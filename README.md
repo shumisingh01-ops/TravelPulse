@@ -69,3 +69,16 @@ Add your deployed Render website URL here.
 ---
 
 Built as a full-stack Python project to explore personalized travel planning and data-driven recommendations.
+## 📸 Project Screenshots
+
+### Homepage
+![TravelPulse Homepage](screenshots/homepage.png)
+
+### Trip Planner
+![TravelPulse Trip Planner](screenshots/trip-planner.png)
+
+### Personalized Recommendations
+![TravelPulse Results](screenshots/results.png)
+
+### Destination Details
+![TravelPulse Destination Details](screenshots/destination.png)
