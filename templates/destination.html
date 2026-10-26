@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{{ destination.Destination }} | TravelPulse</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <header>
+        <h1>TravelPulse</h1>
+        <a href="/">← Back to Home</a>
+    </header>
+
+    <main class="destination-page">
+
+        
+
+<section
+    class="destination-hero"
+    style="background-image: url('/static/images/{{ destination.Destination | lower }}.jpg');"
+>
+    <div class="destination-hero-content">
+
+        <p class="hero-label">
+            DISCOVER INDIA WITH TRAVELPULSE
+        </p>
+
+        <h1>{{ destination.Destination }}</h1>
+
+        <p class="hero-location">
+            📍 {{ destination.State }}
+        </p>
+
+        <p class="hero-category">
+            {{ destination.Category }} |
+            {{ destination.Crowd_Level }} Crowd
+        </p>
+
+    </div>
+</section>
+
+
+
+        <section class="explore-section">
+            <h2>📍 Places to Visit</h2>
+
+            {% for place in attractions %}
+            <div class="explore-card">
+                <h3>{{ place.Place_Name }}</h3>
+                <p>Category: {{ place.Category }}</p>
+                <p>Suggested visit: {{ place.Visit_Duration_Hours }} hours</p>
+                <p>Suggested Day: {{ place.Recommended_Day }}</p>
+            </div>
+            {% else %}
+            <p>Attractions will be added soon.</p>
+            {% endfor %}
+        </section>
+
+        <section class="explore-section">
+            <h2>🏨 Hotels</h2>
+
+            {% for hotel in hotels %}
+            <div class="explore-card">
+                <h3>{{ hotel.Hotel_Name }}</h3>
+                <p>{{ hotel.Location }}</p>
+                <p>{{ hotel.Hotel_Type }}</p>
+                <p>Price: {{ hotel.Price_Status }}</p>
+            </div>
+            {% else %}
+            <p>Hotel information will be added soon.</p>
+            {% endfor %}
+        </section>
+
+        <section class="explore-section">
+            <h2>🍽️ Restaurants</h2>
+
+            {% for restaurant in restaurants %}
+            <div class="explore-card">
+                <h3>{{ restaurant.Restaurant_Name }}</h3>
+                <p>{{ restaurant.Location }}</p>
+                <p>{{ restaurant.Cuisine }}</p>
+            </div>
+            {% else %}
+            <p>Restaurant information will be added soon.</p>
+            {% endfor %}
+        </section>
+
+        <section class="explore-section">
+            <h2>☕ Cafés</h2>
+
+            {% for cafe in cafes %}
+            <div class="explore-card">
+                <h3>{{ cafe.Cafe_Name }}</h3>
+                <p>{{ cafe.Location }}</p>
+                <p>{{ cafe.Speciality }}</p>
+            </div>
+            {% else %}
+            <p>Café information will be added soon.</p>
+            {% endfor %}
+        </section>
+
+        <section class="explore-section">
+            <h2>💊 Medical Stores</h2>
+
+            {% for store in medical_stores %}
+            <div class="explore-card">
+                <h3>{{ store.Store_Name }}</h3>
+                <p>{{ store.Location }}</p>
+                <p>Status: {{ store.Verification_Status }}</p>
+            </div>
+            {% else %}
+            <p>Verified medical store information is not yet available.</p>
+            {% endfor %}
+        </section>
+
+    </main>
+
+</body>
+</html>

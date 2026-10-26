@@ -1,0 +1,238 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Plan Your Escape | TravelPulse</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body class="homepage planner-standalone">
+
+    <!-- NAVIGATION -->
+
+    <header class="home-navbar">
+
+        <a href="/" class="home-logo">
+            Travel<span>Pulse.</span>
+        </a>
+
+        <nav aria-label="Main navigation">
+            <a href="/">Home</a>
+            <a href="/#explore">Explore</a>
+            <a href="/planner">Trip Studio</a>
+        </nav>
+
+        <a href="/" class="nav-cta">
+            ← Back to Home
+        </a>
+
+    </header>
+
+
+    <!-- DEDICATED TRIP PLANNER -->
+
+    <main>
+
+        <section class="planner-zone" id="planner">
+
+            <div class="planner-intro">
+
+                <p class="eyebrow">
+                    YOUR TRIP, YOUR RULES
+                </p>
+
+                <h2>
+                    Make room for <em>somewhere new.</em>
+                </h2>
+
+                <p>
+                    Tell TravelPulse what your ideal trip looks like.
+                    We'll suggest destinations with an estimated
+                    budget breakdown.
+                </p>
+
+            </div>
+
+
+            <section class="trip-form" aria-label="Trip planner">
+
+                <div class="planner-heading">
+
+                    <h2>Plan your escape ✦</h2>
+
+                    <p>
+                        Six details. A smarter starting point.
+                    </p>
+
+                </div>
+
+
+                <div class="planner-fields">
+
+                    <!-- BUDGET -->
+
+                    <div class="form-group">
+
+                        <label for="budget">
+                            Total budget (₹)
+                        </label>
+
+                        <input
+                            type="number"
+                            id="budget"
+                            placeholder="e.g. 25000"
+                            min="1"
+                        >
+
+                    </div>
+
+
+                    <!-- DAYS -->
+
+                    <div class="form-group">
+
+                        <label for="days">
+                            Trip duration (days)
+                        </label>
+
+                        <input
+                            type="number"
+                            id="days"
+                            placeholder="e.g. 3"
+                            min="1"
+                        >
+
+                    </div>
+
+
+                    <!-- TRAVELERS -->
+
+                    <div class="form-group">
+
+                        <label for="travelers">
+                            Travelers
+                        </label>
+
+                        <input
+                            type="number"
+                            id="travelers"
+                            placeholder="e.g. 2"
+                            min="1"
+                        >
+
+                    </div>
+
+
+                    <!-- TRANSPORT -->
+
+                    <div class="form-group">
+
+                        <label for="transport">
+                            Transport
+                        </label>
+
+                        <select id="transport">
+
+                            <option value="Train">Train</option>
+                            <option value="Bus">Bus</option>
+                            <option value="Flight">Flight</option>
+                            <option value="Car">Car</option>
+
+                        </select>
+
+                    </div>
+
+
+                    <!-- CATEGORY -->
+
+                    <div class="form-group">
+
+                        <label for="category">
+                            Travel interest
+                        </label>
+
+                        <select id="category">
+
+                            <option value="All">
+                                All Experiences
+                            </option>
+
+                            <option value="Nature">Nature</option>
+                            <option value="Adventure">Adventure</option>
+                            <option value="Beach">Beach</option>
+                            <option value="Historical">Historical</option>
+                            <option value="Spiritual">Spiritual</option>
+
+                        </select>
+
+                    </div>
+
+
+                    <!-- CROWD -->
+
+                    <div class="form-group">
+
+                        <label for="crowd">
+                            Crowd preference
+                        </label>
+
+                        <select id="crowd">
+
+                            <option value="All">
+                                No Preference
+                            </option>
+
+                            <option value="Low">Low</option>
+                            <option value="Medium">Medium</option>
+                            <option value="High">High</option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ANALYZE BUTTON -->
+
+                <button id="analyzeBtn" type="button">
+                    Find my destinations ↗
+                </button>
+
+                <p class="planner-note">
+                    Budget figures are illustrative estimates,
+                    not live prices.
+                </p>
+
+            </section>
+
+        </section>
+
+    </main>
+
+
+    <footer class="home-footer">
+
+        <h2>TravelPulse.</h2>
+
+        <p>Go further. Travel smarter.</p>
+
+        <span>Made for curious explorers of India.</span>
+
+    </footer>
+
+
+    <!-- EXISTING WORKING RECOMMENDATION LOGIC -->
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>

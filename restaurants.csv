@@ -1,0 +1,9 @@
+
+Restaurant_ID,Destination,Restaurant_Name,Location,Cuisine,Estimated_Cost_Per_Person,Price_Status
+R001,Munnar,Saravana Bhavan,MG Road,South Indian Vegetarian,,Not Verified
+R002,Munnar,Munnar Samrudhi Restaurant,Moolakadai,Multi Cuisine,,Not Verified
+R003,Munnar,Parakkat Spice Merchant Restaurant,Chithirapuram,Multi Cuisine,,Not Verified
+R004,Coorg,Raintree Restaurants,Madikeri,Multi Cuisine,,Not Verified
+R005,Coorg,Paakashala Madikeri,Stuart Hill,Vegetarian,,Not Verified
+R006,Coorg,Stone Hill 1959,Near Raja Seat,Kodava Cuisine,,Not Verified
+R007,Kasol,Pinewood,Manikaran Road,North Indian,,Not Verified

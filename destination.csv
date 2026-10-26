@@ -1,0 +1,21 @@
+Destination,State,Category,Avg_Daily_Cost,Recommended_Days,Crowd_Level,Adventure_Score,Nature_Score,History_Score,Food_Score,Nightlife_Score
+Manali,Himachal Pradesh,Adventure,2500,5,Medium,9,9,5,7,5
+Munnar,Kerala,Nature,2200,4,Low,7,10,5,8,3
+Goa,Goa,Beach,3000,4,High,8,8,5,9,10
+Jaipur,Rajasthan,Historical,2000,3,Medium,4,5,10,9,7
+Rishikesh,Uttarakhand,Adventure,1800,3,Medium,10,9,5,7,4
+Udaipur,Rajasthan,Historical,2200,3,Medium,3,7,10,9,5
+Kasol,Himachal Pradesh,Nature,1700,3,Low,9,10,3,7,3
+Varanasi,Uttar Pradesh,Spiritual,1500,3,High,2,5,10,9,4
+Darjeeling,West Bengal,Nature,2100,4,Medium,6,10,6,8,3
+Pondicherry,Tamil Nadu,Beach,2300,3,Medium,5,8,6,9,7
+Jaisalmer,Rajasthan,Historical,1900,3,Medium,6,6,10,8,5
+Agra,Uttar Pradesh,Historical,1600,2,High,2,4,10,8,3
+Shimla,Himachal Pradesh,Nature,2300,4,High,6,9,6,8,5
+Coorg,Karnataka,Nature,2000,4,Low,7,10,5,8,3
+Amritsar,Punjab,Historical,1700,2,Medium,2,5,9,9,4
+Alleppey,Kerala,Nature,2400,3,Low,4,10,5,9,3
+McLeodGanj,Himachal Pradesh,Adventure,1900,3,Medium,8,9,5,8,4
+Kochi,Kerala,Beach,2100,3,Medium,4,8,8,10,6
+Hampi,Karnataka,Historical,1600,3,Low,6,7,10,8,2
+Andaman,Andaman and Nicobar,Beach,4000,5,Medium,8,10,4,8,7

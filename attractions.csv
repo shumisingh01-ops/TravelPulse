@@ -1,0 +1,23 @@
+
+Attraction_ID,Destination,Place_Name,Category,Entry_Fee,Visit_Duration_Hours,Recommended_Day
+A001,Munnar,Tea Museum,Cultural,150,2,1
+A002,Munnar,Mattupetty Dam,Nature,0,2,2
+A003,Munnar,Echo Point,Nature,0,1,2
+A004,Munnar,Top Station,Viewpoint,0,2,3
+A005,Coorg,Abbey Falls,Nature,0,2,1
+A006,Coorg,Raja's Seat,Viewpoint,0,1,1
+A007,Coorg,Dubare Elephant Camp,Wildlife,0,3,2
+A008,Kasol,Chalal Village,Nature,0,3,1
+A009,Kasol,Manikaran Sahib,Spiritual,0,3,2
+A010,Kasol,Parvati Valley,Nature,0,3,3
+A011,Jaipur,Hawa Mahal,Historical,0,2,1
+A012,Jaipur,Amber Fort,Historical,0,3,2
+A013,Jaipur,City Palace,Historical,0,2,1
+A014,Goa,Baga Beach,Beach,0,3,1
+A015,Goa,Fort Aguada,Historical,0,2,2
+A016,Goa,Basilica of Bom Jesus,Historical,0,2,3
+A017,Manali,Hadimba Devi Temple,Spiritual,0,2,1
+A018,Manali,Solang Valley,Adventure,0,4,2
+A019,Manali,Old Manali,Cultural,0,3,3
+A020,Alleppey,Alappuzha Beach,Beach,0,2,1
+A021,Alleppey,Marari Beach,Beach,0,3,2

@@ -1,0 +1,33 @@
+╔══════════════════════════════════════════╗
+║             🌍 TRAVELPULSE               ║
+║      Plan smarter. Travel better.        ║
+╠══════════════════════════════════════════╣
+║                                          ║
+║  Your Budget                             ║
+║  ₹ [ 15000 ]                             ║
+║                                          ║
+║  Trip Duration                           ║
+║  [ 4 ] Days                              ║
+║                                          ║
+║  What do you love?                       ║
+║  [ Nature ▼ ]                            ║
+║                                          ║
+║  Crowd Preference                        ║
+║  [ Low ▼ ]                               ║
+║                                          ║
+║        [ ANALYZE MY TRIP ]               ║
+║                                          ║
+╠══════════════════════════════════════════╣
+║           MATCHING DESTINATIONS          ║
+║                                          ║
+║  🏔️ Munnar                               ║
+║  Estimated Cost: ₹8,800                  ║
+║  Nature Score: 10/10                     ║
+║  Crowd: Low                              ║
+║                                          ║
+║  🌲 Kasol                                ║
+║  Estimated Cost: ₹6,800                  ║
+║  Nature Score: 10/10                     ║
+║  Crowd: Low                              ║
+╚══════════════════════════════════════════╝
+
